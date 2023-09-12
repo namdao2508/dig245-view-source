@@ -1,2 +1,190 @@
+#umbrella{
+    font-size: 100%;
+    font-family:'Times New Roman', Times, serif;
+    height: 20px;
+    width:auto;
+}
 
-/* css */
+#top div{
+    position: absolute;
+    left:0px;
+}
+
+#a1{
+    top: 0px;
+}
+
+#a2{
+    top: 20px;
+}
+
+#a3{
+    top: 40px;
+}
+
+#a4{
+    top: 60px;
+}
+
+#a5{
+    top: 80px; 
+}
+
+#a6{
+    top: 100px; 
+}
+
+#a7{
+    top: 120px; 
+}
+
+#a8{
+    top: 140px; 
+}
+
+#a9{
+    top: 160px; 
+}
+
+#a10{
+    top: 180px; 
+}
+
+#a11{
+    top: 200px;
+}
+
+#upwardsLess div{
+    transform: rotate(330deg);
+    position: absolute;
+    top: 235px;
+}
+
+#upwardsMore div{
+    transform: rotate(300deg);
+    position: absolute;
+    top:220px;
+}
+
+#downwardsLess div{
+    transform: rotate(35deg);
+    position: absolute;
+    top: 235px;
+}
+
+#downwardsMore div{
+    transform: rotate(55deg);
+    position: absolute;
+    top:220px;
+}
+
+#b1{
+    left:0px;
+}
+
+#b2{
+    left:15px;
+}
+
+#b11{
+    left:50px;
+}
+
+#b3{
+    left:70px;
+}
+
+#b4{
+    left:90px;
+}
+
+#b12{
+    left:115px;
+}
+
+#b13{
+    left:130px;
+}
+
+#b5{
+    left:155px;
+}
+
+#b6{
+    left:165px;
+}
+
+#b14{
+    left:185px;
+}
+
+#b7{
+    left: 220px;
+}
+
+#b8{
+    left: 232px;
+}
+
+#b15{
+    left: 250px;
+}
+
+#b16{
+    left: 265px;
+}
+
+#b9{
+    left: 295px;
+}
+
+#b10{
+    left: 330px;
+}
+
+#handle div{
+    position: absolute;
+    transform-origin: bottom left;
+}
+
+#c1{
+    transform: rotate(90deg);
+    top: 260px;
+    left: 0px;
+}
+
+#c2{
+    transform: rotate(90deg);
+    top: 445px;
+    left: 0px;
+}
+
+#c3{
+    transform: rotate(63deg);
+    top: 467px;
+    left: 7px;
+}
+
+#c4{
+    transform: rotate(36deg);
+    top: 485px;
+    left: 20px;
+}
+
+#c5{
+    transform: rotate(9deg);
+    top: 495px;
+    left: 40px;
+}
+
+#c6{
+    transform: rotate(330deg);
+    top: 485px;
+    left: 65px;
+}
+
+#c7{
+    transform: rotate(300deg);
+    top: 463px;
+    left: 85px;
+}
