@@ -6,55 +6,71 @@
     <title>DIG 245 View Source</title>
 </head>
 <body>
-    <div id="umbrella">
-        <div id="top">
-            <div id="a1">As the</div>
-            <div id="a2">Rain falls,</div>
-            <div id="a3">People scramble the</div>
-            <div id="a4">Streets for shelter. Cloudy</div>
-            <div id="a5">dark sky swallows the sunlight</div>
-            <div id="a6">over the once bright blue atmosphere.</div>
-            <div id="a7">The big green cedar tree, that used to thrive</div>
-            <div id="a8">sitting by the side of the road, spreading its</div>
-            <div id="a9">majestic branches over the unknowing pedestrians,</div>
-            <div id="a10">now lies on top the gray honda with its roots up in</div>
-            <div id="a11">the air. The sound of the whooshing wind scares the crying</div>
+    <!-- Below is the start of the umbrella concrete poem -->
+    <div class="umbrella">
+        <!-- Top class signifies the top of the umbrella where rain initially hits -->
+        <div class="top">
+            <div class="a1">As the</div>
+            <div class="a2">Rain falls,</div>
+            <div class="a3">People scramble the</div>
+            <div class="a4">Streets for shelter. Cloudy</div>
+            <div class="a5">dark sky swallows the sunlight</div>
+            <div class="a6">over the once bright blue atmosphere.</div>
+            <div class="a7">The big green cedar tree, that used to thrive</div>
+            <div class="a8">sitting by the side of the road, spreading its</div>
+            <div class="a9">majestic branches over the unknowing pedestrians,</div>
+            <div class="a10">now lies on top the gray honda with its roots up in</div>
+            <div class="a11">the air. The sound of the whooshing wind scares the crying</div>
         </div>
-        <div id="bottom">
-            <div id="upwardsLess">
-                <div id="b1">ba</div>
-                <div id="b3">spe</div>
-                <div id="b5">th</div>
-                <div id="b7">th</div>
-                <div id="b9">chee</div> 
+        <!-- Bottom class signifies the bottom of the umbrella where the rain slides down from 
+            the umbrella. I've split the bottom part of the umbrella into 4 sections to make the
+            curvature of a normal words match the curvature of the umbrella.-->
+        <div class="bottom">
+            <!-- The upwardsLess and upwardsMore classes signify when the words curve up. I've 
+            made it two different class so that each word is not so static. So, each div from 
+            upwardsLess and upwardsMore combine to create a more "curved" word. Each word is completed
+            by its following b number. For example, b1 ("ba") and b2 ("by") combines to form "baby" -->
+            <div class="upwardsLess">
+                <div class="b1">ba</div>
+                <div class="b3">spe</div>
+                <div class="b5">th</div>
+                <div class="b7">th</div>
+                <div class="b9">chee</div> 
             </div>
-            <div id="upwardsMore">
-                <div id="b2">by;</div>
-                <div id="b4">ed</div>
-                <div id="b6">at</div>
-                <div id="b8">e</div>
-                <div id="b10">tah.</div> 
+            <div class="upwardsMore">
+                <div class="b2">by;</div>
+                <div class="b4">ed</div>
+                <div class="b6">at</div>
+                <div class="b8">e</div>
+                <div class="b10">tah.</div> 
             </div>
-            <div id="downwardsMore">
-                <div id="b11">its</div>
-                <div id="b12">riv</div>
-                <div id="b14">of</div>
-                <div id="b15">fast</div>
+             <!-- The downwardsLess and downwardsMore classes signify when the words curve down. I've 
+            made it two different class so that each word is not so static. So, each div from 
+            downwardsLess and downwardsMore combine to create a more "curved" word. Each word is completed
+            by its following b number. For example, b12 ("riv") and b13 ("als") combines to form "rivals" -->
+            <div class="downwardsMore">
+                <div class="b11">its</div>
+                <div class="b12">riv</div>
+                <div class="b14">of</div>
+                <div class="b15">fast</div>
             </div>
-            <div id="downwardsLess">
-                <div id="b13">als</div>
-                <div id="b16">est</div>
+            <div class="downwardsLess">
+                <div class="b13">als</div>
+                <div class="b16">est</div>
             </div>
         </div>
     </div>
-    <div id="handle">
-        <div id="c1">PANG! RUMBLE! CLAP!</div>
-        <div id="c2"><b>C</b></div>
-        <div id="c3"><b>R</b></div>
-        <div id="c4"><b>A</b></div>
-        <div id="c5"><b>C</b></div>
-        <div id="c6"><b>K!</b></div>
-        <div id="c7"><b>THUNDER!</b></div>
+    <!-- This is the handle part of the umbrella. The words are just sounds from a thunderstorm. I've chosen
+    to split "CRACK!" into "C" "R" "A" "C" "K!"" so that the word "CRACK!" has the effect of being bottom part
+    of the handle of the umbrella, which goes from curving down to up. -->
+    <div class="handle">
+        <div class="c1">PANG! RUMBLE! CLAP!</div>
+        <div class="c2"><b>C</b></div>
+        <div class="c3"><b>R</b></div>
+        <div class="c4"><b>A</b></div>
+        <div class="c5"><b>C</b></div>
+        <div class="c6"><b>K!</b></div>
+        <div class="c7"><b>THUNDER!</b></div>
     </div>
 </body>
 </html>
